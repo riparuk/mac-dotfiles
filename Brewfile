@@ -1,21 +1,20 @@
 brew 'git'
+brew 'lazygit'
+brew 'mas'
+brew 'neovim'
+brew 'tree'
 brew 'zsh-autosuggestions'
 brew 'zsh-syntax-highlighting'
-brew 'mas'
-brew 'tree'
-brew 'neovim'
-brew 'lazygit'
 
-cask 'keepassxc'
+cask 'android-studio'
 cask 'discord'
+cask 'docker'
 cask 'figma'
 cask 'google-chrome'
-cask 'zoom'
+cask 'keepassxc'
 cask 'telegram'
-
 cask 'visual-studio-code'
-cask 'android-studio'
+cask 'zoom'
 
 # For App Store 
-mas 'XCode', id: 497799835
 mas 'WhatsApp Messenger', id: 310633997

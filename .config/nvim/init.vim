@@ -27,7 +27,7 @@ Plug 'junegunn/fzf.vim'
 " Colorscheme
 
 " treesitter
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate', 'branch': 'master'}
 Plug 'nvim-treesitter/nvim-treesitter-context', {'do': ':TSUpdate'}
 
 " For nvim-cmp

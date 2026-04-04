@@ -68,13 +68,17 @@
   --}
 	
 	-- pyright is python LSP server, Make sure it is Installed
-	require'lspconfig'.pyright.setup{}
+	-- require'lspconfig'.pyright.setup{}
+	vim.lsp.enable('pyright')
 
 	-- clangd is c/c++, etc, Make sure it is Installed
-	require'lspconfig'.clangd.setup{}
+	-- require'lspconfig'.clangd.setup{}
+	vim.lsp.enable('clangd')
 
 	-- tsserver is for javascript, etc, Make sure it is Installed 
-	require'lspconfig'.tsserver.setup{}
+	-- require'lspconfig'.tsserver.setup{}
+	vim.lsp.enable('ts_ls')
 
 	-- phpactor is for php, Make sure it is Installed 
-	require'lspconfig'.phpactor.setup{}
+	-- require'lspconfig'.phpactor.setup{}
+	vim.lsp.enable('phpactor')

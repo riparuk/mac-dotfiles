@@ -7,7 +7,6 @@ brew 'zsh-autosuggestions'
 brew 'zsh-syntax-highlighting'
 
 cask 'discord'
-cask 'docker'
 cask 'google-drive'
 cask 'keepassxc'
 cask 'zoom'
